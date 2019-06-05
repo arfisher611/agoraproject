@@ -1,0 +1,305 @@
+/*
+    CSS file for Agora Project
+
+    FileName: css/style.css
+*/
+
+body{
+    max-width: 700px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+}
+
+#title{
+    width: 60%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+    font-size: .8em;
+    border-style: hidden hidden solid hidden;
+    border-width: 3px;
+    border-color: #005282;
+    margin: auto;
+}
+
+#register-pitch{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#register-pitch .opening-pitch{
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.cb-block{
+    padding-bottom: 25px;
+}
+
+.register-button{
+    background-color: #005282;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+    #register-pitch .register-button{
+        width: 70% !important;
+    }
+}
+
+#register-pitch .register-button{
+    width: 100%;
+}
+
+.register-button:hover{
+    cursor: pointer;
+}
+
+.reg-res{
+    display: none;
+}
+
+#time-block{
+    margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #time-block {
+        height: 200px;
+        width: 90%;
+    }
+}
+
+.calandar{
+    background-color: #71a1be;
+}
+
+@media only screen and (min-width: 600px) {
+    .calandar {
+        margin: auto;
+        float: left;
+        width: 33%;
+        border-style: hidden solid hidden hidden;
+        border-width: 10px;
+        border-color: white;
+        height: 90%;
+    }
+}
+
+.date{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+}
+
+.calandar-img{
+    width: 33%;
+    padding-left: 33%;
+    padding-top: 15%;
+}
+
+.time{
+    text-align: center;
+    font-size: .8em;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.countdown{
+    float: left;
+    background-color: #71a1be;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    width:100%;
+    height:125px;
+}
+
+@media only screen and (min-width: 600px) {
+    .countdown {
+        margin: auto;
+        height: 90%;
+        width: 65%;
+    }
+}
+
+.countdown-clock{
+    font-size: 1.3em;
+}
+
+@media only screen and (min-width: 600px) {
+    #author-block{
+        width: 90%;
+        margin: auto;
+        height: 400px;
+    }
+}
+
+.portrait-block{
+    background-color: #05263a;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .portrait-block{
+        height: 95%;
+        width: 50%;
+    }
+}
+
+.portrait{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.caption{
+    font-size: .7em;
+}
+
+.portrait-block p{
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.list-block{
+    float: left;
+    background-color: #DCDCDC;
+    font-size: .7em;
+}
+
+@media only screen and (min-width: 600px) {
+    .list-block{
+        height: 95%;
+        width: 50%;
+    }
+}
+
+
+.list-block p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.portrait-list{
+    padding-right:7px;
+}
+
+.portrait-list li{
+    list-style: none;
+    padding-bottom: 15px;
+    list-style-image: url('../images/Checkmark-resized.png');
+    list-style-position: inside;
+    width: 100%;
+    margin: auto;
+    font-size: 1.3em
+ }
+
+@media only screen and (min-width: 600px) {
+    .portrait-list li{
+        font-size: .8em;
+    }
+}
+
+ #last-call{
+     text-align:center;
+ }
+
+ .pink-block{
+    background-color:#f58c99;
+ }
+
+ @media only screen and (min-width: 600px) {
+    .pink-block{
+        width: 90%;
+        margin: auto;
+        height: 50px;
+    }
+}
+
+ .pink-block p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-weight: 700;
+    line-height: 2em;
+ }
+
+ @media only screen and (min-width: 600px) {
+    .pink-block p{
+        font-size: .7em;
+        padding-top: 15px;
+        margin: auto;
+    }
+}
+
+ .warning-img{
+    display: none;
+ }
+
+@media only screen and (min-width: 600px) {
+    .warning-img{
+        max-height: 80%;
+        padding-top: 5px;
+        padding-left: 33px;
+        float: left;
+        display: block;
+    }
+}
+
+.blue-block{
+    background-color: #05263a;
+    color: white;
+    margin: auto;
+    height: 30px;
+    padding-top: 20px;
+    font-size: .8em;
+    font-style: italic;
+ }
+
+ @media only screen and (min-width: 600px) {
+    .blue-block{
+        width: 90%;
+    }
+}
+
+ .blue-block p{
+    margin: 0px
+ }
+
+ .blue-triangle{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 40px solid #05263a;
+    margin:auto;
+    padding-bottom:15px;
+ }
+
+ .whitespace-footer{
+     height: 150px;
+     color: transparent;
+ }
+
+ #last-call .register-button {
+    width: 70%
+}
+
+ @media only screen and (min-width: 600px) {
+    #last-call .register-button {
+        width: 50%;
+    }
+}

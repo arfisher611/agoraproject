@@ -1,0 +1,124 @@
+<!--
+    Main HTML file for project
+
+    FileName: index.html
+-->
+
+<!DOCTYPE HTML>
+<html lang = "en">
+    <!--HEAD-->
+    <head>
+        <title>Fisher Agora Project</title>
+        <!-- Linking Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- Linking Javascript -->
+        <script src="lib/jquery.min.js"></script>
+        <script src="js/checkbox.js"></script>
+        <!--<script src="js/button.js"></script>-->
+        <script src="js/alt-button.js"></script>
+        <script src="js/datetime.js"></script>
+
+        <!-- default charset -->
+        <meta charset="utf-8">
+    </head>
+
+    <!--BODY-->
+    <body>
+        <!--Title Block-->
+        <div class="block" id="title">
+            Best-Selling Author and Gold Expert<br>
+            Jim Rickards’ Presents…                
+        </div>
+
+        <!--Opening Pitch Block-->
+        <div class="block" id="register-pitch">
+            <p class="opening-pitch" id="op1">
+                “In just days a Never-Before- Seen Gold Anomaly 
+                Will Create a Totally New Class of Penny Gold Stocks...
+            </p>
+            <p class="opening-pitch" id="op2">
+                I’ve Enlisted One of the World’s Top Geologists 
+                to Help Me Reveal... Live on Camera… What This
+                Coming <a style="color: #005282">Gold Mega-Catalyst</a> Is And How You Could Make 
+                as Much as <a style="color: #005282">$101,000</a> in Profit.”
+            </p>
+            <!--Checkbox is linked with box at the bottom-->
+            <div class="cb-block">
+                <input type="checkbox" class="email-cb" id="checkbox-top" value="email" checked>I would like to recieve a free newsletter.
+            </div>
+            <!--Requires box be checked first-->
+            <button type="button" class="register-button" id="button-top">
+                Register for this FREE<br> 
+                live Webinar Here!
+            </button>
+            <p class="reg-res">Something</p>
+        </div>
+
+        <!--Countdown Block-->
+        <div class="block" id="time-block">
+            <div class="calandar">
+                <img src="images/Calandar.png" class="calandar-img">
+                <div class="date"><!--Content filled by js--></div>
+                <div class="time"><!--Content filled by js--></div>
+            </div>
+            <div class="countdown">
+                <p class="countdown-title">TIME LEFT UNTIL THE WEBINAR STARTS...</p>
+                <div class="countdown-clock">
+                    <p id="timer">
+                        <span id="timer-days"></span>
+                        <span id="timer-hours"></span>
+                        <span id="timer-mins"></span>
+                        <span id="timer-secs"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Author Block-->
+        <div class="block" id="author-block">
+            <div class="portrait-block">
+                <figure>
+                    <img src="images/Portrait.png" class="portrait">
+                    <figcaption class="caption">Presented by best-selling author and gold expert…</figcaption>
+                </figure>
+                <p>JAMES G. RICKARDS</p>
+            </div>
+            <div class="list-block">
+                <p>I'm going to show you...</p>
+                <ul class="portrait-list">
+                    <li>How a class of “off-limit” gold stocks could become fair game and shoot up in price…</li>
+                    <li>Why just as many gold stocks could be CRUSHED. But this isn’t a bad thing. In fact, it’s going to open up a unique opportunity not seen in years…</li>
+                    <li>How it could compound an announcement from the Federal Reserve next week that could send physical gold prices much higher…</li>
+                    <li>Why you’ll hear predictions of doom for the gold market (it’s important you understand the truth and know the real profit opportunity that’s being set up)...</li>
+                    <li>Why we may see confirmation that gold will make a run at $2,000 sooner than anyone thinks...</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Final Call to Action-->
+        <div class="block" id="last-call">
+            <div class="pink-block">
+                <img src="images/Warning.png" class="warning-img">
+                <p>WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP</p>
+            </div>
+            <div class="blue-block">
+                <p>Claim your spot below before it's too late!</p>
+            </div>
+            <div class="blue-triangle"></div>
+            <!--Checkbox is linked with box at the top-->
+            <div class="cb-block">
+                <input type="checkbox" class="email-cb" id="checkbox-bottom" value="email" checked> I would like to receive a free newsletter
+            </div>
+            <!--Requires box be checked first-->
+            <button type="submit" class="register-button" id="button-bottom">YES! Reserve My Spot Now! >></button>
+            <p class="reg-res">Something</p>
+        </div>
+    </body>
+
+    <!--FOOTER-->
+    <footer>
+        <!--Footer contains only whitespace-->
+        <div class="whitespace-footer"></div>
+    </footer>
+</html>
