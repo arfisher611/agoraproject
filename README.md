@@ -1,6 +1,7 @@
 # Agora - Alex Fisher
 
 This is Alex Fisher's completed Agora coding project.
+This project was made on BitBucket not GitHub so only one commit is shown here.
 
 ## Dependencies
 
