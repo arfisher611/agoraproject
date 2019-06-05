@@ -20,7 +20,7 @@ $(document).ready(function(){
                 $.ajax({
                     url: endpoint,
                     //Fails due to webpage not supporting JSONP
-                    dataType: "json",
+                    dataType: "jsonp",
                     crossDomain: true,
                     type: "GET",
                     success: function (result, status, xhr){
